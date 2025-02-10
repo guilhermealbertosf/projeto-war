@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'war' ;
+    src: url('fontes/Tanque\ de\ Guerra.ttf');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1:rgba(0, 0, 0, 0.332);
+    --fonte1:normal 3em 'war';
+    --fonte2:normal 1em 'Verdana', 'helvetica', sans-serif;
+}
+
+body{
+    font: normal 13pt arial;
+    background: rgb(115, 152, 172);
+}
+header{
+    color: aliceblue;
+    text-align: center;
+    background: blue url('imagens/war-img.webp') center top no-repeat;
+    background-size: cover;
+}
+header span{
+    display: block;
+    background-color: var(--cor1);
+    padding: 5vh;
+}
+h1{
+    font: var(--fonte1) ;
+}
+header p{
+    font:  var(--fonte2);
+}
+section{
+    
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 10vh 20vw;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.181);
+}
+footer{
+    text-align: center;
+    padding: 15px;
+    color: antiquewhite;
+}
+strong{
+    padding: 10px;
+    font: normal 18pt verdana;
+    
+}
+em#america_norte{
+    color: rgb(210, 122, 0);
+}
+.america_sul{
+    color: green;
+}
+.europa{
+    color: rgb(32, 54, 196);
+}
+.africa{
+    color: rgb(223, 60, 176);
+}
+.asia{
+    color: rgb(210, 184, 13);
+}
+.oceania{
+    color: rgb(159, 7, 7);
+}
