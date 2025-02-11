@@ -13,11 +13,13 @@
     --fonte1:normal 3em 'war';
     --fonte2:normal 1em 'Verdana', 'helvetica', sans-serif;
 }
-
 body{
     font: normal 13pt arial;
     background: rgb(115, 152, 172);
 }
+
+/*Cabeçalho*/
+
 header{
     color: aliceblue;
     text-align: center;
@@ -35,24 +37,38 @@ h1{
 header p{
     font:  var(--fonte2);
 }
+
+/*Principal*/
+
 section{
-    
+    background: white;
+    padding: 10vh 20vw 10vh 20vw;
     min-width: 320px;
     max-width: 1000px;
-    padding: 10vh 20vw;
     border-radius: 5px;
-    background: white;
     box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.181);
+}
+section div#ask{
+    font-size: 1.5em;
+    max-width: 400px;
+}
+p.linha_bloco{
+    display: inline-block;
 }
 footer{
     text-align: center;
     padding: 15px;
     color: antiquewhite;
 }
+
+
+    
+
+/*Continentes*/
+
 strong{
     padding: 10px;
     font: normal 18pt verdana;
-    
 }
 em#america_norte{
     color: rgb(210, 122, 0);
