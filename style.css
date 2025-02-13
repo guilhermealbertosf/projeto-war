@@ -9,12 +9,13 @@
     padding: 0px;
 }
 :root{
-    --cor1:rgba(0, 0, 0, 0.332);
+    --cor1:rgba(0, 0, 0, 0.444);
+    --cor2:rgb(255, 254, 252);
     --fonte1:normal 3em 'war';
     --fonte2:normal 1em 'Verdana', 'helvetica', sans-serif;
 }
 body{
-    
+    width: 100vw;
     background: rgb(115, 152, 172);
 }
 
@@ -25,34 +26,38 @@ header{
     text-align: center;
     background: blue url('imagens/war-img.webp') center top no-repeat;
     background-size: cover;
-
 }
 header span{
     display: block;
     background-color: var(--cor1);
     padding: 20px;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.132), rgba(254, 255, 254, 0.137));
 }
 h1{
     font: var(--fonte1) ;
 }
 header p{
     font:  var(--fonte2);
+    color:var(--cor2);
 }
 
 /*Principal*/
 
 section{
     background: white;
-    padding: 0px;
-    min-width: 320px;
-    max-width: 1000px;
+    box-shadow: 5px 5px 10px #3838382e;
+
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.181);
+    text-align: center;
+    padding: 1.5em 1.5em 5em 1.5em;
+    
     
 }
 section div#ask{
     font-size: 1.5em;
     max-width: 400px;
+    margin: auto;
 }
 p.linha_bloco{
     display: inline-block;
