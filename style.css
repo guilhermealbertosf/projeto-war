@@ -14,7 +14,7 @@
     --fonte2:normal 1em 'Verdana', 'helvetica', sans-serif;
 }
 body{
-    font: normal 13pt arial;
+    
     background: rgb(115, 152, 172);
 }
 
@@ -25,11 +25,12 @@ header{
     text-align: center;
     background: blue url('imagens/war-img.webp') center top no-repeat;
     background-size: cover;
+
 }
 header span{
     display: block;
     background-color: var(--cor1);
-    padding: 5vh;
+    padding: 20px;
 }
 h1{
     font: var(--fonte1) ;
@@ -42,11 +43,12 @@ header p{
 
 section{
     background: white;
-    padding: 10vh 20vw 10vh 20vw;
+    padding: 0px;
     min-width: 320px;
     max-width: 1000px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.181);
+    
 }
 section div#ask{
     font-size: 1.5em;
@@ -54,6 +56,7 @@ section div#ask{
 }
 p.linha_bloco{
     display: inline-block;
+
 }
 footer{
     text-align: center;
